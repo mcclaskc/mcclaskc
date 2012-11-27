@@ -1,0 +1,2318 @@
+
+
+Started GET "/" for 127.0.0.1 at Tue Sep 25 17:32:08 -0600 2012
+Connecting to database specified by database.yml
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:404:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:67:in `call'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `_run__563296121__call__4__callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Sep 25 17:33:16 -0600 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:404:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:67:in `call'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `_run__563296121__call__4__callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Sep 25 17:35:12 -0600 2012
+Connecting to database specified by database.yml
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:404:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:67:in `call'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `_run__632206332__call__4__callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.5ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 18:26:35 -0600 2012
+Connecting to database specified by database.yml
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:404:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:67:in `call'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `_run__497775684__call__4__callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (17.6ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 18:33:35 -0600 2012
+Connecting to database specified by database.yml
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:404:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:67:in `call'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `_run__252519129__call__4__callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 18:47:56 -0600 2012
+Connecting to database specified by database.yml
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:404:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:67:in `call'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `_run__270153960__call__4__callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.5ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 18:48:33 -0600 2012
+Connecting to database specified by database.yml
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:404:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:67:in `call'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `_run__922555044__call__4__callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 18:49:23 -0600 2012
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:404:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:67:in `call'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `_run__922555044__call__4__callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 18:57:09 -0600 2012
+Connecting to database specified by database.yml
+
+LoadError (Expected /home/chris/appfog/christophermcclaskey/app/controllers/home_controller.rb to define HomeController):
+  activesupport (3.2.5) lib/active_support/dependencies.rb:503:in `load_missing_constant'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.5) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.5) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.5) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/flash.rb:238:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `_run__338299274__call__4__callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 18:57:37 -0600 2012
+
+LoadError (Expected /home/chris/appfog/christophermcclaskey/app/controllers/home_controller.rb to define HomeController):
+  activesupport (3.2.5) lib/active_support/dependencies.rb:503:in `load_missing_constant'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.5) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.5) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.5) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/flash.rb:238:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `_run__338299274__call__4__callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 18:58:32 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.3ms)
+Completed 200 OK in 34ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 19:09:26 -0600 2012
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::DotaBuff):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 19:11:13 -0600 2012
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized constant HomeController::DotaBuff):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 19:13:34 -0600 2012
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::DotaBuff):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 19:13:53 -0600 2012
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Dota):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 19:16:06 -0600 2012
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Dota):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 19:17:09 -0600 2012
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Dotabuff):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 19:18:50 -0600 2012
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Dotabuff):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 19:20:57 -0600 2012
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Dotabuff):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (26.6ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 19:26:25 -0600 2012
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Dotabuff):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 19:55:44 -0600 2012
+
+LoadError (no such file to load -- DotaBuff):
+  app/controllers/home_controller.rb:1
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.6ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 19:55:56 -0600 2012
+Connecting to database specified by database.yml
+
+LoadError (no such file to load -- DotaBuff):
+  app/controllers/home_controller.rb:1
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 19:56:13 -0600 2012
+
+LoadError (no such file to load -- Dotabuff):
+  app/controllers/home_controller.rb:1
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 19:56:17 -0600 2012
+
+LoadError (no such file to load -- Dotabuff):
+  app/controllers/home_controller.rb:1
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (27.0ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 19:56:31 -0600 2012
+
+LoadError (no such file to load -- statsmix):
+  lib/dota_buff.rb:1
+  app/controllers/home_controller.rb:1
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 19:57:36 -0600 2012
+Connecting to database specified by database.yml
+
+LoadError (no such file to load -- statsmix):
+  lib/dota_buff.rb:1
+  app/controllers/home_controller.rb:1
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 19:58:14 -0600 2012
+
+LoadError (no such file to load -- statsmix):
+  lib/dota_buff.rb:2
+  app/controllers/home_controller.rb:1
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 19:58:16 -0600 2012
+
+LoadError (no such file to load -- statsmix):
+  lib/dota_buff.rb:2
+  app/controllers/home_controller.rb:1
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 20:01:57 -0600 2012
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Dotabuff):
+  app/controllers/home_controller.rb:5:in `index'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 20:03:01 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.4ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 20:04:03 -0600 2012
+
+SyntaxError (/home/chris/appfog/christophermcclaskey/app/controllers/home_controller.rb:9: syntax error, unexpected $end, expecting kEND):
+  activesupport (3.2.5) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.5) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.5) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.5) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/flash.rb:238:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `_run__1007322608__call__4__callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 20:04:16 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.2ms)
+Completed 200 OK in 345ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 20:05:41 -0600 2012
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 348ms
+
+NoMethodError (undefined method `message' for nil:NilClass):
+  app/controllers/home_controller.rb:6:in `index'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 20:06:14 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.1ms)
+Completed 200 OK in 283ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 20:06:46 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.1ms)
+Completed 200 OK in 313ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 20:07:09 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.1ms)
+Completed 200 OK in 345ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 20:08:08 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.1ms)
+Completed 200 OK in 310ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 20:09:43 -0600 2012
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (1.4ms)
+Completed 200 OK in 294ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 20:10:28 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.1ms)
+Completed 200 OK in 308ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 20:16:39 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.6ms)
+Completed 200 OK in 325ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 20:16:59 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.6ms)
+Completed 200 OK in 562ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 08 20:17:28 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.2ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 09 15:30:22 -0600 2012
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (1.1ms)
+Completed 200 OK in 49ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 09 15:42:51 -0600 2012
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `fetch_sak_atak' for #<Dotabuff:0xb654f84c>):
+  app/controllers/home_controller.rb:5:in `index'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 09 15:43:20 -0600 2012
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `fetch_sak_atak' for #<Dotabuff:0xb64a9d34>):
+  app/controllers/home_controller.rb:5:in `index'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 09 15:43:56 -0600 2012
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (1.5ms)
+Completed 200 OK in 415ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 09 15:45:13 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (1.8ms)
+Completed 200 OK in 326ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 09 15:45:19 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.2ms)
+Completed 200 OK in 329ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 09 15:47:48 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.2ms)
+Completed 200 OK in 346ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 09 15:48:05 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.1ms)
+Completed 200 OK in 200ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 09 15:49:08 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.1ms)
+Completed 200 OK in 236ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 09 15:49:16 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.1ms)
+Completed 200 OK in 234ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 09 15:50:31 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (1.3ms)
+Completed 200 OK in 523ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 09 15:51:10 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (1.6ms)
+Completed 200 OK in 562ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 11 18:10:13 -0600 2012
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (11.2ms)
+Completed 200 OK in 474ms (Views: 120.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 11 18:11:07 -0600 2012
+
+SyntaxError (/home/chris/appfog/christophermcclaskey/app/controllers/home_controller.rb:16: syntax error, unexpected ':', expecting kEND
+      redirect_to: 'http://www.google.com'
+                  ^):
+  activesupport (3.2.5) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.5) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.5) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.5) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/flash.rb:238:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `_run__147493319__call__4__callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 11 18:12:14 -0600 2012
+Processing by HomeController#index as HTML
+Redirected to http://www.google.com
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 11 18:12:52 -0600 2012
+Processing by HomeController#index as HTML
+Redirected to https://docs.google.com/spreadsheet/viewform?formkey=dGdpdUVGeGcxci1HOThTZmVUbXE2a2c6MQ#gid=0
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 11 18:18:33 -0600 2012
+Processing by HomeController#index as HTML
+Redirected to https://docs.google.com/spreadsheet/viewform?formkey=dGdpdUVGeGcxci1HOThTZmVUbXE2a2c6MQ#gid=0
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 11 18:26:54 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.2ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 11 18:27:33 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.2ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 11 18:27:45 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.2ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 11 18:27:51 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.2ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 11 18:28:16 -0600 2012
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb (0.2ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 11 18:28:38 -0600 2012
+Processing by HomeController#index as HTML
+Redirected to https://docs.google.com/spreadsheet/viewform?formkey=dGdpdUVGeGcxci1HOThTZmVUbXE2a2c6MQ#gid=0
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 11 18:29:03 -0600 2012
+Processing by HomeController#index as HTML
+Redirected to https://docs.google.com/spreadsheet/viewform?formkey=dGdpdUVGeGcxci1HOThTZmVUbXE2a2c6MQ#gid=0
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 11 18:31:24 -0600 2012
+Processing by HomeController#index as HTML
+Redirected to https://docs.google.com/spreadsheet/viewform?formkey=dGdpdUVGeGcxci1HOThTZmVUbXE2a2c6MQ#gid=0
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 25 14:00:00 -0600 2012
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+Redirected to https://docs.google.com/spreadsheet/viewform?formkey=dGdpdUVGeGcxci1HOThTZmVUbXE2a2c6MQ#gid=0
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?shitty_wizard=true" for 127.0.0.1 at Thu Oct 25 14:00:09 -0600 2012
+Processing by HomeController#index as HTML
+  Parameters: {"shitty_wizard"=>"true"}
+  Rendered home/index.html.erb (3.1ms)
+Completed 200 OK in 175ms (Views: 174.3ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (64.0ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (136.7ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateTournynames (20121102013116)
+  [1m[35m (69.5ms)[0m  CREATE TABLE `tournynames` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `steam` varchar(255), `email` varchar(255)) ENGINE=InnoDB
+  [1m[36m (3.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20121102013116')[0m
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+
+
+Started GET "/" for 127.0.0.1 at Thu Nov 01 19:42:40 -0600 2012
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+Redirected to https://docs.google.com/spreadsheet/viewform?formkey=dGdpdUVGeGcxci1HOThTZmVUbXE2a2c6MQ#gid=0
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tournynames" for 127.0.0.1 at Thu Nov 01 19:42:44 -0600 2012
+Processing by TournynamesController#index as HTML
+  [1m[36mTournyname Load (0.1ms)[0m  [1mSELECT `tournynames`.* FROM `tournynames` [0m
+  Rendered tournynames/index.html.erb within layouts/application (2.2ms)
+Compiled scaffolds.css  (34ms)  (pid 2816)
+Compiled tournynames.css  (1ms)  (pid 2816)
+Compiled application.css  (46ms)  (pid 2816)
+Compiled jquery.js  (5ms)  (pid 2816)
+Compiled jquery_ujs.js  (0ms)  (pid 2816)
+Compiled tournynames.js  (461ms)  (pid 2816)
+Compiled application.js  (552ms)  (pid 2816)
+Completed 200 OK in 894ms (Views: 825.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu Nov 01 19:42:45 -0600 2012
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu Nov 01 19:42:45 -0600 2012
+Served asset /scaffolds.css - 200 OK (4ms)
+
+
+Started GET "/assets/tournynames.css?body=1" for 127.0.0.1 at Thu Nov 01 19:42:45 -0600 2012
+Served asset /tournynames.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu Nov 01 19:42:45 -0600 2012
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu Nov 01 19:42:45 -0600 2012
+Served asset /application.js - 200 OK (21ms)
+
+
+Started GET "/assets/tournynames.js?body=1" for 127.0.0.1 at Thu Nov 01 19:42:45 -0600 2012
+Served asset /tournynames.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu Nov 01 19:42:45 -0600 2012
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/tournynames/new" for 127.0.0.1 at Thu Nov 01 19:43:18 -0600 2012
+Processing by TournynamesController#new as HTML
+  Rendered tournynames/_form.html.erb (50.1ms)
+  Rendered tournynames/new.html.erb within layouts/application (70.3ms)
+Completed 200 OK in 77ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tournynames" for 127.0.0.1 at Thu Nov 01 19:43:20 -0600 2012
+Processing by TournynamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7Oy+fwBxvHtvx/ciMxWoA9+pYDPljCG5vtYTao51vDs=", "commit"=>"Create Tournyname"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `tournynames` (`email`, `name`, `steam`) VALUES (NULL, NULL, NULL)[0m
+  [1m[35m (11.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/tournynames/1
+Completed 302 Found in 33ms (ActiveRecord: 12.0ms)
+
+
+Started GET "/tournynames/1" for 127.0.0.1 at Thu Nov 01 19:43:20 -0600 2012
+Processing by TournynamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTournyname Load (0.2ms)[0m  [1mSELECT `tournynames`.* FROM `tournynames` WHERE `tournynames`.`id` = 1 LIMIT 1[0m
+  Rendered tournynames/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 10ms (Views: 6.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tournynames/1/edit" for 127.0.0.1 at Thu Nov 01 19:43:26 -0600 2012
+Processing by TournynamesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTournyname Load (2.7ms)[0m  SELECT `tournynames`.* FROM `tournynames` WHERE `tournynames`.`id` = 1 LIMIT 1
+  Rendered tournynames/_form.html.erb (1.3ms)
+  Rendered tournynames/edit.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 2.7ms)
+
+
+Started PUT "/tournynames/1" for 127.0.0.1 at Thu Nov 01 19:43:29 -0600 2012
+Processing by TournynamesController#update as HTML
+  Parameters: {"utf8"=>"✓", "id"=>"1", "authenticity_token"=>"7Oy+fwBxvHtvx/ciMxWoA9+pYDPljCG5vtYTao51vDs=", "commit"=>"Update Tournyname"}
+  [1m[36mTournyname Load (0.1ms)[0m  [1mSELECT `tournynames`.* FROM `tournynames` WHERE `tournynames`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tournynames/1
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/tournynames/1" for 127.0.0.1 at Thu Nov 01 19:43:29 -0600 2012
+Processing by TournynamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTournyname Load (0.1ms)[0m  SELECT `tournynames`.* FROM `tournynames` WHERE `tournynames`.`id` = 1 LIMIT 1
+  Rendered tournynames/show.html.erb within layouts/application (37.5ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tournynames" for 127.0.0.1 at Thu Nov 01 19:43:31 -0600 2012
+Processing by TournynamesController#index as HTML
+  [1m[36mTournyname Load (1.8ms)[0m  [1mSELECT `tournynames`.* FROM `tournynames` [0m
+  Rendered tournynames/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/tournynames/1" for 127.0.0.1 at Thu Nov 01 19:43:34 -0600 2012
+Processing by TournynamesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTournyname Load (1.8ms)[0m  SELECT `tournynames`.* FROM `tournynames` WHERE `tournynames`.`id` = 1 LIMIT 1
+  Rendered tournynames/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/tournynames/1/edit" for 127.0.0.1 at Thu Nov 01 19:43:36 -0600 2012
+Processing by TournynamesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTournyname Load (0.1ms)[0m  [1mSELECT `tournynames`.* FROM `tournynames` WHERE `tournynames`.`id` = 1 LIMIT 1[0m
+  Rendered tournynames/_form.html.erb (1.1ms)
+  Rendered tournynames/edit.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tournynames" for 127.0.0.1 at Thu Nov 01 19:43:39 -0600 2012
+Processing by TournynamesController#index as HTML
+  [1m[35mTournyname Load (1.2ms)[0m  SELECT `tournynames`.* FROM `tournynames` 
+  Rendered tournynames/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/tournynames/new" for 127.0.0.1 at Thu Nov 01 19:43:43 -0600 2012
+Processing by TournynamesController#new as HTML
+  Rendered tournynames/_form.html.erb (1.2ms)
+  Rendered tournynames/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tournynames" for 127.0.0.1 at Thu Nov 01 19:43:46 -0600 2012
+Processing by TournynamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7Oy+fwBxvHtvx/ciMxWoA9+pYDPljCG5vtYTao51vDs=", "commit"=>"Create Tournyname"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO `tournynames` (`email`, `name`, `steam`) VALUES (NULL, NULL, NULL)
+  [1m[36m (21.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tournynames/2
+Completed 302 Found in 25ms (ActiveRecord: 22.4ms)
+
+
+Started GET "/tournynames/2" for 127.0.0.1 at Thu Nov 01 19:43:46 -0600 2012
+Processing by TournynamesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mTournyname Load (0.2ms)[0m  SELECT `tournynames`.* FROM `tournynames` WHERE `tournynames`.`id` = 2 LIMIT 1
+  Rendered tournynames/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tournynames" for 127.0.0.1 at Thu Nov 01 19:57:30 -0600 2012
+Processing by TournynamesController#index as HTML
+  [1m[36mTournyname Load (0.3ms)[0m  [1mSELECT `tournynames`.* FROM `tournynames` [0m
+  Rendered tournynames/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu Nov 01 19:57:30 -0600 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu Nov 01 19:57:30 -0600 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournynames.css?body=1" for 127.0.0.1 at Thu Nov 01 19:57:30 -0600 2012
+Served asset /tournynames.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu Nov 01 19:57:30 -0600 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu Nov 01 19:57:30 -0600 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu Nov 01 19:57:30 -0600 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournynames.js?body=1" for 127.0.0.1 at Thu Nov 01 19:57:30 -0600 2012
+Served asset /tournynames.js - 304 Not Modified (0ms)
+
+
+Started GET "/tournynames/new" for 127.0.0.1 at Thu Nov 01 19:57:32 -0600 2012
+Processing by TournynamesController#new as HTML
+  Rendered tournynames/_form.html.erb (1.2ms)
+  Rendered tournynames/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu Nov 01 19:57:32 -0600 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu Nov 01 19:57:32 -0600 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournynames.css?body=1" for 127.0.0.1 at Thu Nov 01 19:57:32 -0600 2012
+Served asset /tournynames.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu Nov 01 19:57:32 -0600 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu Nov 01 19:57:32 -0600 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournynames.js?body=1" for 127.0.0.1 at Thu Nov 01 19:57:32 -0600 2012
+Served asset /tournynames.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu Nov 01 19:57:32 -0600 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/tournynames" for 127.0.0.1 at Thu Nov 01 19:57:36 -0600 2012
+Processing by TournynamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7Oy+fwBxvHtvx/ciMxWoA9+pYDPljCG5vtYTao51vDs=", "commit"=>"Create Tournyname"}
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `tournynames` (`email`, `name`, `steam`) VALUES (NULL, NULL, NULL)[0m
+  [1m[35m (21.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/tournynames/3
+Completed 302 Found in 24ms (ActiveRecord: 21.8ms)
+
+
+Started GET "/tournynames/3" for 127.0.0.1 at Thu Nov 01 19:57:36 -0600 2012
+Processing by TournynamesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTournyname Load (0.3ms)[0m  [1mSELECT `tournynames`.* FROM `tournynames` WHERE `tournynames`.`id` = 3 LIMIT 1[0m
+  Rendered tournynames/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu Nov 01 19:57:36 -0600 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu Nov 01 19:57:36 -0600 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournynames.css?body=1" for 127.0.0.1 at Thu Nov 01 19:57:36 -0600 2012
+Served asset /tournynames.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu Nov 01 19:57:36 -0600 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu Nov 01 19:57:36 -0600 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournynames.js?body=1" for 127.0.0.1 at Thu Nov 01 19:57:36 -0600 2012
+Served asset /tournynames.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu Nov 01 19:57:36 -0600 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/tournynames/new" for 127.0.0.1 at Thu Nov 01 19:59:28 -0600 2012
+Processing by TournynamesController#new as HTML
+  Rendered tournynames/_form.html.erb (1.7ms)
+  Rendered tournynames/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu Nov 01 19:59:28 -0600 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu Nov 01 19:59:28 -0600 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournynames.css?body=1" for 127.0.0.1 at Thu Nov 01 19:59:28 -0600 2012
+Served asset /tournynames.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu Nov 01 19:59:28 -0600 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu Nov 01 19:59:28 -0600 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournynames.js?body=1" for 127.0.0.1 at Thu Nov 01 19:59:28 -0600 2012
+Served asset /tournynames.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu Nov 01 19:59:28 -0600 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/tournynames/new" for 127.0.0.1 at Thu Nov 01 20:00:24 -0600 2012
+Processing by TournynamesController#new as HTML
+  Rendered tournynames/_form.html.erb (29.8ms)
+  Rendered tournynames/new.html.erb within layouts/application (30.4ms)
+Completed 500 Internal Server Error in 33ms
+
+ActionView::Template::Error (undefined method `merge' for "name":String):
+    12:   <% end %>
+    13: 
+    14:   <div class="actions">
+    15:     <%= f.text_field :name, "name" %>
+    16:     <%= f.text_field :steam, "steam" %>
+    17:     <%= f.text_field :email, "email" %>
+    18:     <%= f.submit %>
+  app/views/tournynames/_form.html.erb:15:in `_app_views_tournynames__form_html_erb__796729445__618321768'
+  app/views/tournynames/_form.html.erb:1:in `_app_views_tournynames__form_html_erb__796729445__618321768'
+  app/views/tournynames/new.html.erb:3:in `_app_views_tournynames_new_html_erb__6705247__619021758'
+  app/controllers/tournynames_controller.rb:30:in `new'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.2ms)
+
+
+Started GET "/tournynames/new" for 127.0.0.1 at Thu Nov 01 20:05:02 -0600 2012
+Processing by TournynamesController#new as HTML
+  Rendered tournynames/_form.html.erb (10.6ms)
+  Rendered tournynames/new.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 19ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu Nov 01 20:05:02 -0600 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at Thu Nov 01 20:05:02 -0600 2012
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournynames.css?body=1" for 127.0.0.1 at Thu Nov 01 20:05:02 -0600 2012
+Served asset /tournynames.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu Nov 01 20:05:02 -0600 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu Nov 01 20:05:02 -0600 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournynames.js?body=1" for 127.0.0.1 at Thu Nov 01 20:05:02 -0600 2012
+Served asset /tournynames.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu Nov 01 20:05:02 -0600 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/tournynames" for 127.0.0.1 at Thu Nov 01 20:05:22 -0600 2012
+Processing by TournynamesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7Oy+fwBxvHtvx/ciMxWoA9+pYDPljCG5vtYTao51vDs=", "commit"=>"Create Tournyname", "tournyname"=>{"steam"=>"SAK_ATAK", "name"=>"chris mcclaskey", "email"=>"christoper.m.mcclaskey@gmail.com"}}
+Completed 500 Internal Server Error in 0ms
+
+ActiveModel::MassAssignmentSecurity::Error (Can't mass-assign protected attributes: steam, name, email):
+  app/controllers/tournynames_controller.rb:44:in `new'
+  app/controllers/tournynames_controller.rb:44:in `create'
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Nov 26 18:09:55 -0700 2012
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+Redirected to https://docs.google.com/spreadsheet/viewform?formkey=dGdpdUVGeGcxci1HOThTZmVUbXE2a2c6MQ#gid=0
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/cassini" for 127.0.0.1 at Mon Nov 26 18:10:04 -0700 2012
+
+ActionController::RoutingError (No route matches [GET] "/cassini"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/cassini/index" for 127.0.0.1 at Mon Nov 26 18:10:15 -0700 2012
+
+ActionController::RoutingError (No route matches [GET] "/cassini/index"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/cassini" for 127.0.0.1 at Mon Nov 26 18:13:06 -0700 2012
+
+ActionController::RoutingError (No route matches [GET] "/cassini"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/cassini" for 127.0.0.1 at Mon Nov 26 18:19:35 -0700 2012
+Connecting to database specified by database.yml
+
+ActionController::RoutingError (No route matches [GET] "/cassini"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/cassini/index" for 127.0.0.1 at Mon Nov 26 18:19:42 -0700 2012
+Processing by CassiniController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cassini/index" for 127.0.0.1 at Mon Nov 26 18:26:17 -0700 2012
+Connecting to database specified by database.yml
+
+SyntaxError (/home/chris/appfog/christophermcclaskey/app/controllers/cassini_controller.rb:4: odd number list for Hash
+		response = {entity_x: 1, entity_y: 2, entity_z: 3}
+		                     ^
+/home/chris/appfog/christophermcclaskey/app/controllers/cassini_controller.rb:4: syntax error, unexpected ':', expecting '}'
+		response = {entity_x: 1, entity_y: 2, entity_z: 3}
+		                     ^):
+  activesupport (3.2.5) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:469:in `load_file'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:192:in `const_missing'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.5) lib/active_support/inflector/methods.rb:218:in `constantize'
+  activesupport (3.2.5) lib/active_support/inflector/methods.rb:217:in `each'
+  activesupport (3.2.5) lib/active_support/inflector/methods.rb:217:in `constantize'
+  activesupport (3.2.5) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/flash.rb:238:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `_run__593270678__call__4__callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (27.1ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.5ms)
+
+
+Started GET "/cassini/index" for 127.0.0.1 at Mon Nov 26 18:26:57 -0700 2012
+Processing by CassiniController#index as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cassini/index" for 127.0.0.1 at Mon Nov 26 18:40:27 -0700 2012
+Processing by CassiniController#index as */*
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cassini/index" for 127.0.0.1 at Mon Nov 26 18:40:55 -0700 2012
+Processing by CassiniController#index as */*
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cassini/index" for 127.0.0.1 at Mon Nov 26 18:54:58 -0700 2012
+
+AbstractController::ActionNotFound (The action 'index' could not be found for CassiniController):
+  actionpack (3.2.5) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.5) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.5) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.5) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.5) lib/action_controller/metal.rb:246:in `action'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.3) lib/journey/router.rb:68:in `call'
+  journey (1.0.3) lib/journey/router.rb:56:in `each'
+  journey (1.0.3) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.5) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/flash.rb:238:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.5) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `_run__593270678__call__4__callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `send'
+  activesupport (3.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/cassini/" for 127.0.0.1 at Mon Nov 26 18:55:02 -0700 2012
+
+ActionController::RoutingError (No route matches [GET] "/cassini"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/cassini/data" for 127.0.0.1 at Mon Nov 26 19:11:11 -0700 2012
+Connecting to database specified by database.yml
+Processing by CassiniController#data as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cassini/availability" for 127.0.0.1 at Mon Nov 26 19:11:22 -0700 2012
+Processing by CassiniController#availability as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at Mon Nov 26 19:12:43 -0700 2012
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Nov 26 19:12:46 -0700 2012
+Processing by CassiniController#availability as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Nov 26 19:12:51 -0700 2012
+Processing by CassiniController#availability as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Nov 26 19:12:53 -0700 2012
+Processing by CassiniController#availability as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at Mon Nov 26 19:12:57 -0700 2012
+
+ActionController::RoutingError (No route matches [GET] "/home/index"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at Mon Nov 26 19:13:08 -0700 2012
+
+ActionController::RoutingError (No route matches [GET] "/home/index"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Nov 26 19:13:11 -0700 2012
+Processing by CassiniController#availability as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Nov 26 19:14:40 -0700 2012
+Processing by HomeController#index as HTML
+Redirected to https://docs.google.com/spreadsheet/viewform?formkey=dGdpdUVGeGcxci1HOThTZmVUbXE2a2c6MQ#gid=0
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at Mon Nov 26 19:15:03 -0700 2012
+
+ActionController::RoutingError (No route matches [GET] "/home/index"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at Mon Nov 26 19:15:05 -0700 2012
+
+ActionController::RoutingError (No route matches [GET] "/home/index"):
+  actionpack (3.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.5) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.5) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.5) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.5) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.5) lib/rails/engine.rb:479:in `call'
+  railties (3.2.5) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.5) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/chris/.rvm/rubies/ruby-1.8.7-p370/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  rack (1.4.1) lib/rack/handler/webrick.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.5) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.5) lib/rails/commands.rb:55
+  railties (3.2.5) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.5) lib/rails/commands.rb:50
+  script/rails:6:in `require'
+  script/rails:6
+
+
+  Rendered /home/chris/.rvm/gems/ruby-1.8.7-p370/gems/actionpack-3.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)

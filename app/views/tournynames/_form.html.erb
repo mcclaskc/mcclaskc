@@ -1,0 +1,23 @@
+<%= form_for(@tournyname) do |f| %>
+  <% if @tournyname.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@tournyname.errors.count, "error") %> prohibited this tournyname from being saved:</h2>
+
+      <ul>
+      <% @tournyname.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    Name
+    <%= f.text_field :name %>
+    Steam 
+    <%= f.text_field :steam %>
+    Email
+    <%= f.text_field :email %>
+    <%= f.submit %>
+  </div>
+<% end %>

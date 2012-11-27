@@ -1,0 +1,1 @@
+Rails App that I use for random tinkering, or for tempory/quickfix website/server/database for schoolwork.  Very unorganized.  Very messy.  
